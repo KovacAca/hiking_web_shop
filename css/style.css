@@ -31,6 +31,15 @@ a {
   color: var(--primary);
   transition: var(--transition);
 }
+a:hover {
+  color: var(--primary);
+}
+ul {
+  list-style: none;
+}
+.active {
+  color: var(--primary);
+}
 /*********************
 topbar
 *********************/
@@ -52,4 +61,22 @@ topbar
   color: var(--text);
   margin-right: 10px;
   font-size: 2.5rem;
+}
+/*********************
+nav
+*********************/
+nav {
+  padding: 15px 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+nav ul li a {
+  color: var(--black);
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+  color: var(--primary);
 }
