@@ -40,6 +40,20 @@ ul {
 .active {
   color: var(--primary);
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headings);
+  color: var(--black);
+}
+button {
+  padding: 15px 40px;
+  margin-top: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: var(--transition);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 /*********************
 topbar
 *********************/
@@ -79,4 +93,35 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: var(--primary);
+}
+/*********************
+header
+*********************/
+header {
+  background: url(../img/header.jpg);
+  background-position: center top;
+  background-size: cover;
+  padding: 200px 0;
+}
+header article {
+  width: 30%;
+  background-color: rgba(255, 255, 255, .7);
+  padding: 40px;
+  margin-left: 15%;
+}
+header article h1:after {
+  display: block;
+  content: '';
+  width: 40px;
+  height: 3px;
+  background: var(--primary);
+  margin: 20px 0;
+}
+header button {
+  background-color: var(--primary);
+  border: none;
+  color: var(--white);
+}
+header button:hover {
+  background-color: var(--black);
 }
