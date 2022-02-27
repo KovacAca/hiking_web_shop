@@ -148,13 +148,15 @@ header article h1:after {
   margin: 20px 0;
 }
 header button,
-.contact button {
+.contact button,
+.single button {
   background-color: var(--primary);
   border: none;
   color: var(--white);
 }
 header button:hover,
-.contact button:hover {
+.contact button:hover,
+.single button:hover {
   background-color: var(--black);
 }
 /*********************
@@ -303,4 +305,40 @@ contact
 .contact span,
 .single span  {
   margin-right: 10px;
+}
+/*********************
+single
+*********************/
+.single article div:first-child {
+  float: left;
+  width: 40%;
+}
+.single article div:last-child {
+  float: right;
+  width: 55%;
+}
+.single img {
+  width: 100%;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+}
+.single h3 {
+  font-size: 1.7rem;
+}
+.single .price {
+  color: var(--primary);
+  font-size: 1.2rem;
+}
+.single p {
+  font-weight: 300;
+  padding: 20px 0;
+}
+.single select {
+  padding: 15px;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  margin: 0 10px;
+}
+.single span a:hover {
+  color: var(--black);
 }
