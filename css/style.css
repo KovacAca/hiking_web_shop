@@ -282,7 +282,8 @@ about
 .about span {
   margin-left: 10px;
 }
-.about span a:hover {
+.about span a:hover,
+.contact span a:hover {
   color: var(--black);
 }
 /*********************
@@ -303,7 +304,7 @@ contact
   padding: 15px;
 }
 .contact span,
-.single span  {
+.single span {
   margin-right: 10px;
 }
 /*********************
