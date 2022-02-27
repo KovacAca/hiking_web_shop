@@ -147,12 +147,14 @@ header article h1:after {
   background: var(--primary);
   margin: 20px 0;
 }
-header button {
+header button,
+.contact button {
   background-color: var(--primary);
   border: none;
   color: var(--white);
 }
-header button:hover {
+header button:hover,
+.contact button:hover {
   background-color: var(--black);
 }
 /*********************
@@ -280,4 +282,25 @@ about
 }
 .about span a:hover {
   color: var(--black);
+}
+/*********************
+contact
+*********************/
+.contact article div:first-child {
+  float: left;
+  width: 48%;
+}
+.contact article div:last-child {
+  float: right;
+  width: 48%;
+}
+.contact input,
+.contact textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.contact span,
+.single span  {
+  margin-right: 10px;
 }
