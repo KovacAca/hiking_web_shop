@@ -76,6 +76,12 @@ h2::before {
   background: var(--primary);
   margin-bottom: 10px;
 }
+hr {
+  background: var(--lightgray);
+  height: 1px;
+  margin: 20px 0;
+  border: none;
+}
 /*********************
 topbar
 *********************/
@@ -251,4 +257,27 @@ products
 }
 .products .item:hover {
   border: 1px solid var(--primary);
+}
+/*********************
+about
+*********************/
+.about div:nth-child(1){
+  width: 40%;
+  float: left;
+}
+.about div:nth-child(2){
+  width: 58%;
+  float: right;
+}
+.about img {
+  width: 100%;
+}
+.about p {
+  margin-bottom: 15px;
+}
+.about span {
+  margin-left: 10px;
+}
+.about span a:hover {
+  color: var(--black);
 }
